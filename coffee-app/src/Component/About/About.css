@@ -1,0 +1,47 @@
+.about{
+    /* height: 60vh; */
+    background: #DBBCA1;
+    display:flex;
+    width: 100vw;
+}
+
+.about-content{
+    margin: auto 10px;
+    display: flex;
+    margin: 2rem 8rem;
+    gap: 8rem;
+}
+
+.about-content h2{
+    color: #220404;
+    font-family: Poppins, sans-serif;
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.about-content h4{
+    color: #220404;
+    font-family: Poppins,sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.about-text p{
+    padding-bottom: 20px;
+    max-width: 60ch;
+}
+
+.about-text button {
+    background: #220404;
+    padding: 15px 45px;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: poppins, sans-serif;
+}
+
+.about img{
+    width: 300px;
+    height: 300px;
+}
