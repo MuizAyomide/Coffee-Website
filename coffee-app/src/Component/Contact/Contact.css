@@ -57,10 +57,23 @@ form{
     border-radius: 5px;
 }
 
+ul{
+    margin-top: 50px;
+}
 
+ul li{
+    list-style: none;
+    padding-bottom: 5px;
+    /* font-weight: 600; */
+    font-size: 1.2rem;
+}
 
-
-
+li::before{
+    content: '-';
+    padding-right: 10px;
+    text-align: center;
+    font-weight: 600;
+}
 
 
 
