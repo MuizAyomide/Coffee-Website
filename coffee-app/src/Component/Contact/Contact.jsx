@@ -22,7 +22,7 @@ const Contact = () => {
                 <h1>Sitemap</h1>
                 <p>All our Pages</p>
 
-                <ul>
+                <ul className='list'>
                     <li>Home</li>
                     <li>About Us</li>
                     <li>Feature</li>
