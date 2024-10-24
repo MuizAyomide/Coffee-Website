@@ -1,0 +1,68 @@
+.contact{
+    background: #2F1F14;
+    color: #fff;
+}
+
+.all{
+    padding: 50px 120px;
+    display: flex;
+    gap: 70px;
+    justify-content: space-between;
+}
+
+.all h1{
+    font-size: 1.9rem;
+}
+
+.all p{
+    font-weight: 500;
+    color: #6d594c;
+    font-size: 1.2rem;
+}
+
+.first-inp{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: auto;
+    padding: 20px 0 20px 0;
+}
+
+.first-inp input{
+    padding: 10px 10px;
+    display: flex;
+    outline: none;
+    width: 70%;
+}
+
+textarea{
+    padding: 10px 10px;
+    outline: none;
+    font-family: poppins, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    background: #ddbaa2;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
