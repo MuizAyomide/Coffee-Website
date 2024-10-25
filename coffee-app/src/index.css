@@ -8,3 +8,104 @@
 body{
   font-family: Poppins, sans-serif;
 }
+
+.bar{
+  color: #442906;
+  font-size: 4rem;
+  display: none;
+
+}
+
+/* Media Query */
+
+@media(max-width: 500px) {
+  .home{
+    /* width: 100px; */
+    overflow-x: hidden;
+    /* display: none; */
+    /* background-image: none; */
+    background-position: 500px 0px;
+  }
+  .bar{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .top{
+    display: none;
+    /* margin-right: 550px; */
+    
+  }
+  
+  .nav-ul{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .close{
+    color: #fff;
+    font-weight: 600;
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    text-align: right;
+  }
+
+
+  .logo{
+    width: 80px;
+    height: 80px;
+    margin-left: -150px;
+  }
+
+  .logo img{
+    width: 200px;
+  }
+
+  .text-content{
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.text-content h3{
+  max-width: 60ch;
+  font-size: 5rem;
+  line-height: 80px;
+}
+
+.text-content p{
+  font-size: 1.4rem;
+  padding-top: 20px;
+}
+
+  .about-content{
+    flex-direction: column;
+    margin: 2rem 4rem;
+    gap: 4rem;
+  }
+
+  .review-list{
+    flex-direction: column;
+  }
+
+ .all{
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px 70px;
+ }
+
+ .first-inp, .list{
+  margin-top: 10px;
+ }
+
+ .right{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ }
+}
