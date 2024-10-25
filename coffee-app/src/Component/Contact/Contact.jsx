@@ -31,7 +31,9 @@ const Contact = () => {
                 </ul>
             </div>
             <div className="right">
+                <div className="bottom-logo">
                 <img src="logo.png" alt="" />
+                </div>
                 <div className="call-mail">
                     <dv className="call">
                         <img src="Vector call.png" alt="" />
