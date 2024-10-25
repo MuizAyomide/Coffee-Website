@@ -57,24 +57,49 @@ form{
     border-radius: 5px;
 }
 
-ul{
+.list{
     margin-top: 50px;
 }
 
-ul li{
-    list-style: none;
+.list li{
     padding-bottom: 5px;
     /* font-weight: 600; */
     font-size: 1.2rem;
+    list-style: none !important; 
+    
 }
 
-li::before{
+.list li::before{
     content: '-';
     padding-right: 10px;
     text-align: center;
     font-weight: 600;
 }
 
+.bottom-logo{
+    width: 200px;
+    height: 200px;
+    margin-left: -50px;
+}
+
+.bottom-logo img{
+    width: 350px;
+}
+
+.call-mail{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.call-mail img{
+    width: 20px;
+}
+
+.call ,.mail{
+    display: flex;
+    gap: 10px;
+}
 
 
 
